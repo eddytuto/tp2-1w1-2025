@@ -1,0 +1,53 @@
+.navigation, #chk-burger {
+    display: none;
+    position : fixed;
+    top : 40px;
+    right : 10px;
+    background-color: rgba(0, 0, 0, 0.549);
+    padding : 20px;
+
+}
+
+.navigation__bouton {
+    position : fixed;
+    top : 10px;
+    right : 10px;
+}
+#chk-burger:checked ~ .navigation{
+    display: block;
+}
+.navigation a{
+    display: block;
+    color: #fff;
+    background-color: rgba(235, 237, 243, 0.304);
+    text-decoration: none;
+    font-size: 2rem;
+    padding : 3px;
+    margin : 5px;
+}
+
+
+
+
+
+
+.entete__nav{
+    position: fixed;
+    top:5px;
+    right:20px;
+    width : 400px;
+    /* 2rem = 2*14px  */
+    font-size: 2rem;
+    background-color: beige;
+    padding:10px;
+}
+
+.entete__nav a {
+    text-decoration: none;
+    padding:10px;
+
+}
+.entete__nav a:hover{
+       background-color: rgb(92, 92, 78); 
+       color:rgb(211, 110, 28)
+}

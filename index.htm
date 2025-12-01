@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopage</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Knewave&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero">
+        <header class="entete centre">
+            <h1 class="knewave-regular">Site monopage</h1>
+            <label class="navigation__bouton"for="chk-burger">
+                <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=fff" width="32" height="32"></label>
+            <input type="checkbox" name="" id="chk-burger">
+            <nav class="navigation">
+                <a href="#un">Un</a>
+                <a href="#inscription">Inscription</a>
+                <a href="#trois">Trois</a>
+                <a href="#quatre">Quatre</a>
+            </nav>
+
+
+
+
+
+        </header>
+    </div>
+    <div>
+        <section id="un" class="un centre">
+            <h1>Un</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+     <div>
+        <section id="inscription" class="deux centre">
+            <h1>Inscription</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+     <div>
+        <section id="trois" class="trois centre">
+            <h1>Trois</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+    <div>
+        <section id="quatre" class="quatre centre">
+            <h1>Quatre</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+
+<!-- Charger le polyfill -->
+<script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+
+<!-- Initialisation après chargement -->
+<script>
+  window.addEventListener('load', function() {
+    if (typeof smoothscroll !== 'undefined' && smoothscroll.polyfill) {
+      smoothscroll.polyfill();
+      console.log('✅ Smooth Scroll polyfill activé');
+    } else {
+      console.warn('⚠️ smoothscroll non chargé');
+    }
+  });
+</script>
+
+
+</body>
+</html>
+
