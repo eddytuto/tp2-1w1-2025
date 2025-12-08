@@ -64,10 +64,17 @@ figure > img {
 */
 
 body > div:nth-of-type(1){
-    background-color: rgb(207, 81, 81);
+
+    min-height: 100vh;
+    background: 
+    linear-gradient(180deg,transparent 90%, #000 100%),
+    url("../images/Montreal-birdseye-view.webp");
+
 }
 body > div:nth-of-type(2){
-    background-color: rgb(42, 59, 137);
+        background: 
+    linear-gradient(0deg,#ffffff30, #000 100%),
+    url("../images/les-aliments-bons-pour-coeur_2000x.webp");
 }
 body > div:nth-of-type(3){
     background-color: rgb(51, 208, 19);
@@ -81,7 +88,6 @@ body > div:nth-of-type(5){
 
 /* ////////////////////////////////////////////// division .hero */
 .hero {
-    min-height: 100vh;
-    background-image: url("../images/Montreal-birdseye-view.webp");
+
 }
 

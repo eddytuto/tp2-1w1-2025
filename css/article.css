@@ -1,0 +1,42 @@
+
+/* conteneur flex */
+.article{
+    display : flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding : 20px 0;
+}
+
+
+/* un élément du conteneur flex, une colonne de texte */
+.article__div{
+    flex-grow:1 ;
+    flex-shrink:0 ;
+    flex-basis: 400px;
+}
+.article__figure{
+    flex-grow:1 ;
+    flex-shrink:1 ;
+    flex-basis: 300px;
+}
+
+
+.article__div h2{}
+.article__div p{
+    color : #121212;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+
+.article__img{}
+.article__figcaption{}
+
+.article:nth-of-type(odd){
+    background-color: #f1f4f626;
+}
+
+.article:nth-of-type(odd) .article__figure{
+    order : -1;
+}
+  
