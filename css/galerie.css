@@ -1,0 +1,19 @@
+.galerie{
+    display : flex;
+    flex-wrap: wrap;
+    gap: 10px;;
+}
+.galerie__figure{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 350px;
+    transform: rotate(10deg);
+
+}
+.galerie__figure:nth-of-type(odd){
+     transform: rotate(-10deg);
+}
+
+
+.galerie__img{}
+.galerie__figcaption{}

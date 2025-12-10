@@ -7,13 +7,16 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/galerie.css">
+  <link rel="stylesheet" href="css/video.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Knewave&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="hero">
+    <!-- //////////////////////////////////////////////////////  division hero -->
+    <div id="accueil" class="hero">
         <header class="entete centre">
             <h1 class="knewave-regular">Site monopage</h1>
             <a href="https://eddytuto.github.io/tp2-1w1-2025/">github-page</a>
@@ -21,14 +24,16 @@
                 <img src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=fff" width="32" height="32"></label>
             <input type="checkbox" name="" id="chk-burger">
             <nav class="navigation">
-                <a href="#un">Un</a>
+                <a href="#accueil">Accueil</a>
+                <a href="#articles">Articles</a>
                 <a href="#inscription">Inscription</a>
-                <a href="#trois">Trois</a>
-                <a href="#quatre">Quatre</a>
+                <a href="#galerie">Galerie</a>
+                <a href="#video">Vidéo</a>
             </nav>
         </header>
     </div>
-    <div>
+       <!-- //////////////////////////////////////////////////////  les articles -->
+    <div id="articles">
         <section id="articles" class="centre">
             <h1>Articles</h1>
             <article class="article">
@@ -49,7 +54,7 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse architecto, eos est hic exercitationem quasi obcaecati nulla vitae, aperiam natus laboriosam! Corrupti recusandae aliquid hic temporibus. Laboriosam, nemo itaque.</p>
                 </div>
                 <figure class="article__figure">
-                    <img src="images/img1.webp" alt="" class="article__img">
+                    <img src="images/img2.webp" alt="" class="article__img">
                     <figcaption class="article__figcaption"></figcaption>
                 </figure>
             </article>
@@ -60,7 +65,7 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse architecto, eos est hic exercitationem quasi obcaecati nulla vitae, aperiam natus laboriosam! Corrupti recusandae aliquid hic temporibus. Laboriosam, nemo itaque.</p>
                 </div>
                 <figure class="article__figure">
-                    <img src="images/img1.webp" alt="" class="article__img">
+                    <img src="images/img3.webp" alt="" class="article__img">
                     <figcaption class="article__figcaption"></figcaption>
                 </figure>
             </article>
@@ -71,59 +76,128 @@
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus esse architecto, eos est hic exercitationem quasi obcaecati nulla vitae, aperiam natus laboriosam! Corrupti recusandae aliquid hic temporibus. Laboriosam, nemo itaque.</p>
                 </div>
                 <figure class="article__figure">
-                    <img src="images/img1.webp" alt="" class="article__img">
+                    <img src="images/img4.webp" alt="" class="article__img">
+                    <figcaption class="article__figcaption"></figcaption>
+                </figure>
+                <figure class="article__figure">
+                    <img src="images/img5.webp" alt="" class="article__img">
                     <figcaption class="article__figcaption"></figcaption>
                 </figure>
             </article>
             <a href="#">Accueil</a>
         </section>
     </div>
-
+<!-- //////////////////////////////////////////////////////  Galerie -->
      <div>
         <section id="galerie" class="centre">
             <h1>Galerie</h1>
-            <figure>
-                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
+            <figure class="galerie">
+                <figure class="galerie__figure">
+                    <img src="images/img1.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
                 </figure>
-                                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
+                                <figure class="galerie__figure">
+                    <img src="images/img2.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
                 </figure>
-                                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
+                                <figure class="galerie__figure">
+                    <img src="images/img3.avif" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
                 </figure>
-                                <figure>
-                    <img src="" alt="">
-                    <figcaption></figcaption>
+                                <figure class="galerie__figure">
+                    <img src="images/img4.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
                 </figure>
+                <figure class="galerie__figure">
+                    <img src="images/img5.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                <figure class="galerie__figure">
+                    <img src="images/img6.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>        
+                <figure class="galerie__figure">
+                    <img src="images/img1.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                                <figure class="galerie__figure">
+                    <img src="images/img2.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                                <figure class="galerie__figure">
+                    <img src="images/img3.avif" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                                <figure class="galerie__figure">
+                    <img src="images/img4.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                <figure class="galerie__figure">
+                    <img src="images/img5.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>
+                <figure class="galerie__figure">
+                    <img src="images/img6.webp" alt="recette 1" class="galerie__img">
+                    <figcaption class="galerie__figcaption">Recette</figcaption>
+                </figure>        
             </figure>
 
             <a href="#">Accueil</a>
         </section>
     </div>
-         <div>
+    <!-- ///////////////////////////////////////////////////  Inscription -->
+    <div>
         <section id="inscription" class="deux centre">
             <h1>Inscription</h1>
             <a href="#">Accueil</a>
         </section>
     </div>
+      <!-- ///////////////////////////////////////////////////  Vidéo -->  
     <div>
         <section id="video" class="quatre centre">
             <h1>Video</h1>
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-title="YouTube video player"
-frameborder="0"
-allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen>
-</iframe>
+            <div class="video">
+            <iframe 
+                width="280" 
+                height="157" 
+                src="https://www.youtube.com/embed/jOmy2J3SU8Q?si=oHzYEsXCKxCgNWvi" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+                        <iframe 
+                width="280" 
+                height="157" 
+                src="https://www.youtube.com/embed/jOmy2J3SU8Q?si=oHzYEsXCKxCgNWvi" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+                        <iframe 
+                width="280" 
+                height="157" 
+                src="https://www.youtube.com/embed/jOmy2J3SU8Q?si=oHzYEsXCKxCgNWvi" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+            </iframe>
+        </div>
             <a href="#">Accueil</a>
         </section>
     </div>
+
+    <!-- //////////////////////////////////////////////  footer -->
+     <div>
+        <footer class="pied">
+             
+        </footer>
+     </div>
 
 <!-- Charger le polyfill -->
 <script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>

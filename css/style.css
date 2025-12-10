@@ -68,13 +68,16 @@ body > div:nth-of-type(1){
     min-height: 100vh;
     background: 
     linear-gradient(180deg,transparent 90%, #000 100%),
-    url("../images/Montreal-birdseye-view.webp");
+    url("../images/logo.jpeg") no-repeat,
+    url("../images/Montreal-birdseye-view.webp") no-repeat;
 
 }
 body > div:nth-of-type(2){
-        background: 
-    linear-gradient(0deg,#ffffff30, #000 100%),
-    url("../images/les-aliments-bons-pour-coeur_2000x.webp");
+    min-height: 100vh;
+    background: 
+        linear-gradient(0deg,#ffffff30, #000 100%),
+        url("../images/les-aliments-bons-pour-coeur_2000x.webp") no-repeat;
+    background-size: cover;
 }
 body > div:nth-of-type(3){
     background-color: rgb(51, 208, 19);
